@@ -1,4 +1,4 @@
-一、git 基本操作
+<!-- 一、git 基本操作
 1、安装git 一直回车
 2、配置 user 信息
 git config --global user.name 'coliy'
@@ -16,7 +16,7 @@ git config --global user.email '651192718@qq.com'
 11、删除文件 git rm 文件。
 12、修改文件一起提交：git add -u 可以直接添加所有已经追踪的文件，用 -u 有个好处，避免把工作区没准备好的新文件直接加到暂存区了
 13、文件重命名 ：git mv
-14、查看历史 git log
+14、查看历史 git log<!--  -->
 •    git log --all 查看所有分支的历史
 •    git log --all --graph 查看图形化的 log 地址
 •    git log --oneline 查看单行的简洁历史。
@@ -32,3 +32,4 @@ git config --global user.email '651192718@qq.com'
 5、添加远程仓库 ：
 git remote add origin https://github.com/dpjkflyq/-.git
 6、把本地仓库推送远程仓库： git push -u origin master
+ -->
